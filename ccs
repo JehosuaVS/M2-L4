@@ -1,0 +1,26 @@
+body {
+    background-color: #7c2424; /* Color de fondo con código de color inválido */
+    color: #blue; /* Color de texto inválido */
+    font-family: "Comic Sans MS"; /* Fuente que puede no estar disponible en todos los sistemas */
+    font-size: 1em; /* Tamaño de fuente grande, pero puede que no se ajuste bien */
+    margin: -5px; /* Márgenes sin valor práctico, mejor usar valores predeterminados o más específicos */
+    padding:0px; /* Relleno sin valor práctico, mejor usar valores predeterminados o más específicos */
+    border: 5px solid #00FF10; /* Borde verde con un grosor que puede no ser adecuado */
+}
+
+h1 {
+    color: rgb(165, 99, 0); /* Color de texto poco contrastante */
+    font-size: 50px; /* Tamaño de fuente excesivamente grande */
+    text-align: center; /* Alineación de texto inusual para un h1 */
+}
+
+a {
+    text-decoration: greenyellow; /* Elimina el subrayado de los enlaces, lo que puede hacer que no se noten como enlaces */
+    color: #f1e100; /* Color de texto negro para enlaces, que puede ser difícil de distinguir */
+}
+
+p {
+    line-height: 1; /* Altura de línea demasiado pequeña, puede hacer que el texto sea difícil de leer */
+    margin-bottom: 10px; /* Espaciado insuficiente entre párrafos */
+    font-family: "Comic Sans", Comic; /* Fuente que puede no ser la mejor opción para todos los diseños */
+}
